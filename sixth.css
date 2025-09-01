@@ -154,6 +154,7 @@ small {
 
 .month {
     width: 300px;
+    border-radius: 0;
 }
 
 .why {
