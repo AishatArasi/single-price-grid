@@ -24,7 +24,6 @@ main {
     grid-template-rows: auto auto;
     justify-content: center;
     align-items: center ;
-    flex-direction: column;
     width: 45%;
 }
 
@@ -129,7 +128,7 @@ small {
     font-weight: 400;
 }   
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 850px) {
     body {
         width: 100%;
         align-items: center;
@@ -162,4 +161,22 @@ small {
      border-radius: 0 0 8px 8px;
       width: 300px;
 }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1230px)  {
+    body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla", sans-serif;
+    display: flex;
+    }
+
+    main {
+        display: grid;
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: auto auto;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
